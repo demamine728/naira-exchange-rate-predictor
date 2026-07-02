@@ -7,7 +7,6 @@ from datetime import datetime, timedelta
 
 st.set_page_config(
     page_title="Naira Exchange Rate Predictor",
-    page_icon="💱",
     layout="wide"
 )
 
@@ -192,8 +191,8 @@ def build_features(df):
 # ── HERO ──────────────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-    <h1>💱 Naira Exchange Rate Predictor</h1>
-    <p>XGBoost-powered USD/NGN forecasting · Live market data · Built with Python & Streamlit</p>
+    <h1> Naira Exchange Rate Predictor</h1>
+    <p> · Live market data · </p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -245,7 +244,7 @@ with col4:
 
 
 # ── SETTINGS ──────────────────────────────────────────────────
-st.markdown('<div class="section-header">⚙️ Forecast Settings</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">Forecast Settings</div>', unsafe_allow_html=True)
 
 st.markdown('<div class="settings-card">', unsafe_allow_html=True)
 set_col1, set_col2 = st.columns(2)
